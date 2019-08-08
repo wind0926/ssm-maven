@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="heima_ssm_dao" />
+        <module name="heima_ssm_domain" />
+        <module name="heima_ssm_service" />
+        <module name="heima_ssm_utils" />
+        <module name="heima_ssm_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="heima_ssm" target="1.5" />
+      <module name="heima_ssm_dao" target="1.8" />
+      <module name="heima_ssm_domain" target="1.8" />
+      <module name="heima_ssm_service" target="1.8" />
+      <module name="heima_ssm_utils" target="1.8" />
+      <module name="heima_ssm_web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
